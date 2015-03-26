@@ -181,7 +181,7 @@
     var basicBot = {
         version: "2.2.2",
         status: false,
-        name: "basicBot",
+        name: "MinewardBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
@@ -191,7 +191,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "Mineward Bot",
+            botName: "MinewardBot",
             language: "english",
             chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
             startupCap: 1, // 1-200
@@ -217,13 +217,13 @@
             usercommandsEnabled: true,
             lockskipPosition: 3,
             lockskipReasons: [
-                ["theme", "%%NAME%%, This song does not fit the room theme. "],
-                ["op", "%%NAME%%, This song is on the OP list. "],
-                ["history", "%%NAME%%, This song is in the history. "],
-                ["mix", "%%NAME%%, You played a mix, which is against the rules. "],
-                ["sound", "%%NAME%%, The song you played had bad sound quality or no sound. "],
-                ["nsfw", "%%NAME%%, The song you contained was NSFW (image or sound). "],
-                ["unavailable", "%%NAME%%, The song you played was not available for some users. "]
+                ["theme", "This song does not fit the room theme. "],
+                ["op", "This song is on the OP list. "],
+                ["history", "This song is in the history. "],
+                ["mix", "You played a mix, which is against the rules. "],
+                ["sound", "The song you played had bad sound quality or no sound. "],
+                ["nsfw", "The song you contained was NSFW (image or sound). "],
+                ["unavailable", "The song you played was not available for some users. "]
             ],
             afkpositionCheck: 15,
             afkRankCheck: "ambassador",
@@ -234,11 +234,11 @@
             etaRestriction: false,
             welcome: true,
             opLink: null,
-            rulesLink: https://mineward.com/threads/mineward-plugdj-room-rules-information.4/,
+            rulesLink: null,
             themeLink: null,
             fbLink: null,
             youtubeLink: null,
-            website: http://mineward.com,
+            website: null,
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
