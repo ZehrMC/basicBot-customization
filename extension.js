@@ -1,10 +1,3 @@
-/**
- *Copyright 2014 Yemasthui
- *Modifications (including forks) of the code to fit personal needs are allowed only for personal use and should refer back to the original source.
- *This software is not for profit, any extension, or unauthorised person providing this software is not authorised to be in a position of any monetary gain from this use of this software. Any and all money gained under the use of the software (which includes donations) must be passed on to the original author.
- */
-
-
 (function () {
 
     API.getWaitListPosition = function(id){
@@ -181,7 +174,7 @@
     var basicBot = {
         version: "2.2.2",
         status: false,
-        name: "MinewardBot",
+        name: "basicBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
@@ -198,7 +191,7 @@
             startupVolume: 0, // 0-100
             startupEmoji: false, // true or false
             maximumAfk: 120,
-            afkRemoval: true,
+            afkRemoval: false,
             maximumDc: 60,
             bouncerPlus: true,
             blacklistEnabled: true,
@@ -207,11 +200,11 @@
             maximumLocktime: 10,
             cycleGuard: true,
             maximumCycletime: 10,
-            voteSkip: true,
+            voteSkip: false,
             voteSkipLimit: 10,
-            historySkip: true,
+            historySkip: false,
             timeGuard: true,
-            maximumSongLength: 5,
+            maximumSongLength: 10,
             autodisable: true,
             commandCooldown: 30,
             usercommandsEnabled: true,
@@ -245,7 +238,7 @@
             commandLiteral: "!",
             blacklists: {
                 NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-                OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
+                OP: "https://docs.google.com/document/d/1cR2ZofNpUGkwfaal9G6me63PAsFi6362wS9_dh2jM78/edit?usp=sharing"
             }
         },
         room: {
@@ -2937,7 +2930,6 @@
                              indexMuted = i;
                              wasMuted = true;
                              }
-
                              }
                              if (!wasMuted) return API.sendChat(subChat(basicBot.chat.notmuted, {name: chat.un}));
                              basicBot.room.mutedUsers.splice(indexMuted);
