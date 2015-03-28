@@ -188,7 +188,7 @@
             language: "english",
             chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
             startupCap: 1, // 1-200
-            startupVolume: 0, // 0-100
+            startupVolume: 100, // 0-100
             startupEmoji: true, // true or false
             maximumAfk: 300,
             afkRemoval: true,
