@@ -231,7 +231,7 @@
             themeLink: null,
             fbLink: null,
             youtubeLink: null,
-            website: "mineward.com",
+            website: "http://mineward.com",
             intervalMessages: [],
             messageInterval: 5,
             songstats: false,
