@@ -226,7 +226,7 @@
             filterChat: true,
             etaRestriction: false,
             welcome: false,
-            opLink: "http://goo.gl/7N5S3G",
+            opLink: "goo.gl/7N5S3G",
             rulesLink: null,
             themeLink: null,
             fbLink: null,
