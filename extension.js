@@ -188,10 +188,10 @@
             language: "english",
             chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
             startupCap: 1, // 1-200
-            startupVolume: 100, // 0-100
-            startupEmoji: true, // true or false
-            maximumAfk: 300,
-            afkRemoval: true,
+            startupVolume: 0, // 0-100
+            startupEmoji: false, // true or false
+            maximumAfk: 120,
+            afkRemoval: false,
             maximumDc: 60,
             bouncerPlus: true,
             blacklistEnabled: true,
@@ -200,9 +200,9 @@
             maximumLocktime: 10,
             cycleGuard: true,
             maximumCycletime: 10,
-            voteSkip: true,
+            voteSkip: false,
             voteSkipLimit: 10,
-            historySkip: true,
+            historySkip: false,
             timeGuard: true,
             maximumSongLength: 10,
             autodisable: true,
@@ -225,8 +225,8 @@
             motd: "Temporary Message of the Day",
             filterChat: true,
             etaRestriction: false,
-            welcome: false,
-            opLink: "goo.gl/7N5S3G",
+            welcome: true,
+            opLink: null,
             rulesLink: null,
             themeLink: null,
             fbLink: null,
